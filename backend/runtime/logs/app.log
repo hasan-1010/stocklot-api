@@ -1,0 +1,161 @@
+2020-10-26 19:05:38 [127.0.0.1][1][v8enq6ghosuv5tl4p5o46aej3d][error][ParseError] ParseError: syntax error, unexpected '3' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\xampp\htdocs\stocklotapi\backend\modules\api\controllers\StockController.php:104
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('backend\\modules...')
+#1 [internal function]: spl_autoload_call('backend\\modules...')
+#2 C:\xampp\htdocs\stocklotapi\vendor\yiisoft\yii2\base\Module.php(637): class_exists('backend\\modules...')
+#3 C:\xampp\htdocs\stocklotapi\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID('stock')
+#4 C:\xampp\htdocs\stocklotapi\vendor\yiisoft\yii2\base\Module.php(588): yii\base\Module->createController('get-all-stock')
+#5 C:\xampp\htdocs\stocklotapi\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController('stock/get-all-s...')
+#6 C:\xampp\htdocs\stocklotapi\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('api/stock/get-a...', Array)
+#7 C:\xampp\htdocs\stocklotapi\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\xampp\htdocs\stocklotapi\backend\web\index.php(17): yii\base\Application->run()
+#9 {main}
+2020-10-26 19:05:38 [127.0.0.1][1][v8enq6ghosuv5tl4p5o46aej3d][info][application] $_GET = [
+    'category' => '3'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'v8enq6ghosuv5tl4p5o46aej3d'
+    '_csrf-backend' => '46c362eb5ea12d811d8d790f4697ef9fafc7c88e5ecff418044299d12db75150a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"EcIWJ4cFwwZJX7rUUjQPUfpjr6MTDYtO\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.5'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '5a984f90-8a03-4851-9261-4312f5e9fe2d'
+    'HTTP_HOST' => 'stock.hm'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-backend=v8enq6ghosuv5tl4p5o46aej3d; _csrf-backend=46c362eb5ea12d811d8d790f4697ef9fafc7c88e5ecff418044299d12db75150a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22EcIWJ4cFwwZJX7rUUjQPUfpjr6MTDYtO%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Anaconda3;C:\\ProgramData\\Anaconda3\\Library\\mingw-w64\\bin;C:\\ProgramData\\Anaconda3\\Library\\usr\\bin;C:\\ProgramData\\Anaconda3\\Library\\bin;C:\\ProgramData\\Anaconda3\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\PostgreSQL\\12\\bin;C:\\xampp\\php;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Program Files\\PuTTY\\;C:\\Users\\mmhnc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\mmhnc\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mmhnc\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\mmhnc\\AppData\\Roaming\\npm;C:\\Users\\mmhnc\\AppData\\Local\\atom\\bin;%USERPROFILE%\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.6 Server at stock.hm Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.6'
+    'SERVER_NAME' => 'stock.hm'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/stocklotapi'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/stocklotapi'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/stocklotapi/backend/web/index.php'
+    'REMOTE_PORT' => '60022'
+    'REDIRECT_URL' => '/backend/web/api/stock/get-all-stock'
+    'REDIRECT_QUERY_STRING' => 'category=3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'category=3'
+    'REQUEST_URI' => '/backend/web/api/stock/get-all-stock?category=3'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1603735538.033
+    'REQUEST_TIME' => 1603735538
+]
+2020-10-26 19:30:00 [127.0.0.1][1][brd362f27li486709j6abcq29l][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: common\models\Color::title in C:\xampp\htdocs\stocklotapi\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\xampp\htdocs\stocklotapi\vendor\yiisoft\yii2\db\BaseActiveRecord.php(298): yii\base\Component->__get('title')
+#1 C:\xampp\htdocs\stocklotapi\backend\modules\api\controllers\AttributeController.php(77): yii\db\BaseActiveRecord->__get('title')
+#2 [internal function]: backend\modules\api\controllers\AttributeController->actionGetAllAttribute()
+#3 C:\xampp\htdocs\stocklotapi\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\stocklotapi\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\stocklotapi\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('get-all-attribu...', Array)
+#6 C:\xampp\htdocs\stocklotapi\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('api/attribute/g...', Array)
+#7 C:\xampp\htdocs\stocklotapi\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 C:\xampp\htdocs\stocklotapi\backend\web\index.php(17): yii\base\Application->run()
+#9 {main}
+2020-10-26 19:30:00 [127.0.0.1][1][brd362f27li486709j6abcq29l][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'uchbh7uom7vuni0mgspgcim3e6'
+    '_csrf-backend' => 'd77b19b9b0a1c3f8af46a468937ac4ae9a80e7a5ea90652b006157484e5f6d7ca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"2Qvqsc7vx7GRdsJgezVOBR2M67ttfSpF\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'REDIRECT_MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'REDIRECT_OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'REDIRECT_PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'REDIRECT_PHPRC' => '\\xampp\\php'
+    'REDIRECT_TMP' => '\\xampp\\tmp'
+    'REDIRECT_STATUS' => '200'
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.26.5'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_POSTMAN_TOKEN' => '0d80a4a8-52ac-4cf5-9db7-f3240130cc49'
+    'HTTP_HOST' => 'stock.hm'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'advanced-backend=uchbh7uom7vuni0mgspgcim3e6; _csrf-backend=d77b19b9b0a1c3f8af46a468937ac4ae9a80e7a5ea90652b006157484e5f6d7ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%222Qvqsc7vx7GRdsJgezVOBR2M67ttfSpF%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Anaconda3;C:\\ProgramData\\Anaconda3\\Library\\mingw-w64\\bin;C:\\ProgramData\\Anaconda3\\Library\\usr\\bin;C:\\ProgramData\\Anaconda3\\Library\\bin;C:\\ProgramData\\Anaconda3\\Scripts;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\Git\\cmd;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\nodejs\\;C:\\Program Files\\PostgreSQL\\12\\bin;C:\\xampp\\php;C:\\Program Files\\CodeBlocks\\MinGW\\bin;C:\\Program Files\\PuTTY\\;C:\\Users\\mmhnc\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\mmhnc\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\mmhnc\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\mmhnc\\AppData\\Roaming\\npm;C:\\Users\\mmhnc\\AppData\\Local\\atom\\bin;%USERPROFILE%\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.6 Server at stock.hm Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.6'
+    'SERVER_NAME' => 'stock.hm'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs/stocklotapi'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs/stocklotapi'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/stocklotapi/backend/web/index.php'
+    'REMOTE_PORT' => '60163'
+    'REDIRECT_URL' => '/backend/web/api/attribute/get-all-attribute'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/api/attribute/get-all-attribute'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1603737000.471
+    'REQUEST_TIME' => 1603737000
+]

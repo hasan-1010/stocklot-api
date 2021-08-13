@@ -1,0 +1,6 @@
+1. clone the project in xampp->htdocs
+2. command "init" [development]
+3. change the db name form common->config->main-local.php
+3. command "composer update"
+4. command "yii migrate"
+

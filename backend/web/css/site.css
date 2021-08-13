@@ -1,0 +1,193 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th,
+.grid-view td:last-child {
+    white-space: nowrap;
+}
+
+.grid-view .filters input,
+.grid-view .filters select {
+    min-width: 50px;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+
+
+/*custom*/
+
+/*title*/
+.title-row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.title-row{
+    border: 1px solid #ddd;
+    padding: 10px 0;
+}
+.title-create,
+.title-update,
+.title-view {
+    margin-bottom: 20px;
+}
+.title-row h1 {
+    margin-top: 0;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+.title-row p{
+    margin-bottom: 0;
+}
+.title-row p a{
+    font-weight: bold;
+    border-radius: 0;
+}
+/*end title*/
+.sp-replacer{
+    display: flex;
+}
+span.square {
+    width: 10px;
+    height: 10px;
+    background: #333;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.stock-image {
+    border: 1px solid #ddd;
+    padding: 10px;
+    padding-bottom: 100px;
+}
+.stock-image p {
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 7px;
+}
+.delivery-item input[type="color"]{
+    padding: 2px;
+    width: 35px;
+}
+.thumb-image {
+    float: left;
+}
+.thumb-image img{
+    width: 100px;
+    height: 90px;
+}
+
+.field-stock-other_brand,
+.field-buyerrequest-other_brand {
+    display: none;
+}

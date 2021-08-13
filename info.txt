@@ -1,0 +1,32 @@
+ip 37.111.238.219
+endpoints 
+login
+stock.hm/backend/web/api/user/login
+-body params
+username
+password
+-response
+token / false
+-----------------
+signup
+stock.hm/backend/web/api/user/signup
+-body params
+username
+email
+role
+avatar
+password
+password_repeat
+phone
+----------------------------
+category [GET] with token
+stock.hm/backend/web/api/category/get-category?parent=1&level=2
+
+
+_-------------------------------
+image url
+avatar == null
+domain.com/backend/web/img/profile.png
+
+avatar not null
+domain.com/backend/web/uploads/[avatar]
